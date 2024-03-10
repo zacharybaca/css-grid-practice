@@ -1,0 +1,26 @@
+#grid-container {
+    display: grid;
+    border: 5px solid black;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 100px;
+}
+
+#red {
+    border: 2px solid red;
+}
+
+#purple {
+    border: 2px solid purple;
+}
+
+#green {
+    border: 2px solid green;
+}
+
+#magenta {
+    border: 2px solid magenta;
+}
+
+#yellow {
+    border: 2px solid yellow;
+}
