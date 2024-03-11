@@ -1,26 +1,36 @@
 #grid-container {
     display: grid;
-    border: 5px solid black;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-auto-rows: 100px;
+    grid-template-columns: repeat(auto-fit, minmax(auto-fit, 1fr));
+    grid-auto-rows: 280px;
+    grid-gap: 20px;
 }
 
 #red {
-    border: 2px solid red;
+    background-color: red;
+    grid-column: 1 / 5;
+    border-radius: 10px;
 }
 
-#purple {
-    border: 2px solid purple;
+#violet {
+    background-color: violet;
+    grid-column: 5 / 10;
+    border-radius: 10px;
 }
 
 #green {
-    border: 2px solid green;
+    background-color: green;
+    grid-column: 1 / 3;
+    border-radius: 10px;
 }
 
 #magenta {
-    border: 2px solid magenta;
+    background-color: magenta;
+    grid-column: 3 / 10;
+    border-radius: 10px;
 }
 
 #yellow {
-    border: 2px solid yellow;
+    background-color: yellow;
+    grid-column: 1 / 10;
+    border-radius: 10px;
 }
