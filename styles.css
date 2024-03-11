@@ -34,3 +34,44 @@
     grid-column: 1 / 10;
     border-radius: 10px;
 }
+
+#new-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 208px;
+    grid-gap: 20px;
+}
+
+#new-red {
+    border: 2px solid red;
+    background-color: red;
+    grid-column: 1 / -1;
+    border-radius: 10px;
+}
+
+#new-violet {
+    background-color: violet;
+    grid-column: 1 / 6;
+    grid-row: 2 / 5;
+    border-radius: 10px;
+}
+
+#new-green {
+    background-color: green;
+    grid-column: 6 / 10;
+    border-radius: 10px;
+}
+
+#new-magenta-one {
+    background-color: magenta;
+    grid-column: 6 / 8;
+    grid-row: 3 / 5;
+    border-radius: 10px;
+}
+
+#new-magenta-two {
+    background-color: magenta;
+    grid-column: 8 / 10;
+    grid-row: 3 / 5;
+    border-radius: 10px;
+}
